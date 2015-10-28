@@ -68,8 +68,7 @@ public class MainActivity extends Activity implements DataStoreEventListener {
     }
 
     private void connect() {
-        //this.milkcocoa = new MilkCocoa("juiceig5v0mc9.mlkcca.com"); // for homata
-        this.milkcocoa = new MilkCocoa("leadig4u46ef.mlkcca.com");  // for mikami-san
+        this.milkcocoa = new MilkCocoa("xxxxxxxxxx");
         this.messagesDataStore = this.milkcocoa.dataStore("heartbeat");
         Streaming stream = this.messagesDataStore.streaming();
         stream.size(25);
