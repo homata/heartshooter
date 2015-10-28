@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">heartshooter.wear</string>
+    <string name="hello_round">0</string>
+    <string name="hello_square">0</string>
+</resources>
